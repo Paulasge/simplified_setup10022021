@@ -1,0 +1,59 @@
+:root {
+    /*colors*/
+    --color-white: #fff;
+    --color-beige: #EEE9E9;
+    --color-black: #000000;
+    --color-grey: #666666;
+    --color-thistle1: #FFE1FF;
+    --color-thistle3: #CDB5CD;
+    /*units*/
+    --units-xs: 10px;
+    --units-s: 20px;
+    --units-m: 40px;
+    --units-l: 80px;
+    --units-xl: 160px;
+    /*fonts*/
+    --font-size-primary: 20px;
+    --font-size-secondary: 13px;
+    --font-size-thirdly: 10px;
+    --font-primary: "Poppins (Regular)";
+    --font-secondary: "Oben Sans (Regular)";
+    --font-thirdly: "Sunflower (Bold)";
+    --font-text: "Lato (Regular)";
+    }
+    
+  
+    body{
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        display: block;
+        background-color:var(--color-beige);
+        text-decoration: black;
+        font-family: 'Courier New', Courier, monospace;
+    
+    }
+
+   header{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        width: 100%;
+        height: 20%;
+        background-color:lightgrey;
+        display: block;
+        display: inline-block;
+        font-size: 20px;
+        color:var(--color-black);
+        font-family:'Lucida Sans', sans-serif;
+    }
+
+    h1 {
+    text-align: left;
+    padding-left: var(--units-m);
+    padding-top: var(--units-xs);
+    }
+   
+
+    
