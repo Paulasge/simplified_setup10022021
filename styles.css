@@ -31,29 +31,46 @@
         display: block;
         background-color:var(--color-beige);
         text-decoration: black;
-        font-family: 'Courier New', Courier, monospace;
-    
+
+
+
     }
 
    header{
         margin: 0;
         padding: 0;
-        list-style: none;
         width: 100%;
         height: 20%;
         background-color:lightgrey;
         display: block;
         display: inline-block;
-        font-size: 20px;
         color:var(--color-black);
-        font-family:'Lucida Sans', sans-serif;
     }
 
     h1 {
     text-align: left;
-    padding-left: var(--units-m);
+    margin-left: var(--units-m);
     padding-top: var(--units-xs);
-    }
-   
+    background-image: url("images/LogoPaula.png");
+    background-repeat: no-repeat;
+    color: transparent;
+    background-size: var(--units-xl);
 
+}
+    nav{
+    font-family: 'Courier New', Courier, monospace;    
+    font-size: 20px;
+    text-align: right;
+    margin-right: var(--units-m);
+    padding-top: var(--units-xl);
+    
+}
+h2{
+    background-image: url("images/Bild.jpg");
+    background-repeat: no-repeat;
+    color:transparent;
+    width: 50%;
+    height: 50%;
+
+}
     
