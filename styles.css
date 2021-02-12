@@ -22,55 +22,171 @@
     --font-text: "Lato (Regular)";
     }
     
-  
-    body{
-        margin: 0 auto;
-        text-align: center;
-        width: 100%;
-        height: 100%;
-        display: block;
-        background-color:var(--color-beige);
-        text-decoration: black;
-
-
-
+  header{
+  width: 100%;
+  height: 20%;
+  background-color:white;
+  display:inline-block;
+  position:sticky;
     }
 
-   header{
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 20%;
-        background-color:lightgrey;
-        display: block;
-        display: inline-block;
-        color:var(--color-black);
-    }
 
+/*logo*/
     h1 {
     text-align: left;
     margin-left: var(--units-m);
-    padding-top: var(--units-xs);
+    margin-top:var(--units-s);
     background-image: url("images/LogoPaula.png");
     background-repeat: no-repeat;
     color: transparent;
     background-size: var(--units-xl);
+    height:100%;
+    width:100%;
+
 
 }
-    nav{
+    
+nav{
     font-family: 'Courier New', Courier, monospace;    
-    font-size: 20px;
+    font-size: 30px;
     text-align: right;
-    margin-right: var(--units-m);
-    padding-top: var(--units-xl);
+    margin-top: -170px;
+    list-style: none;
+    margin-right: 400px;
+    
+
+    
+    }
+/* navigation */
+a{
+color:var(--color-black);
+text-decoration: none;
+border-style: solid;
+text-align: center;
+opacity: 60%;
+border-color: black;
+background-color: lightgray;
+padding: 8px;
+margin-top: 50px;
+margin-right: 50px;
+margin-bottom: 50px;
+margin-left: 50px;
+border-radius: var(--units-m);
+
+}
+/*suchen*/
+button{
+font-size: 20px;
+background-color: var(--color-black);
+color:var(--color-white);
+width:20%;
+text-align: center;
+opacity: 50%;
+margin-top: 100px;
+margin-right: 50px;
+margin-bottom: 50px;
+margin-left: 1400px;
+border-radius: var(--units-m);
+
+}
+/*body*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color:var(--color-beige);
+}
+    
+h2{
+    color:var(--color-black);
+    text-decoration: none;
+    opacity: 100%;
+    border-color: black;
+    padding-top: 50px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 700px;
+    margin-right: 700px;
+    font-size: 50px;
+    font-style: initial;
+}
+
+h3{
+text-align: center;
+border-style: solid;
+border-radius: var(--units-m);
+margin-left: 700px;
+margin-right: 700px;
+background-color: var(--color-thistle3);
+}
+div.gallery {
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top:100px;
+    float: left;
+    width: 500px;
+    opacity: 30%;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+div.gallery img {
+ width: 100%;
+ height: 700px;
+}
+
+.überschrift-text{
+    vertical-align: middle;
+    text-align: left;
+    font-size: 40px;
+    padding-left:var(--units-m);
+    padding: 8px;
+    margin-left: 200px;
+    margin-top: 1100px;
+}
+    
+.text{
+    font-size: 20px;
+    padding-left:var(--units-m);
+    width: 40%;
+    text-align:center;
+}
+
+.überschrift-text2{
+    vertical-align: middle;
+    text-align: right;
+    font-size: 40px;
+    padding-right:var(--units-m);
+    padding: 8px;
+    margin-right: 200px;
+    margin-top: 100px;  
     
 }
-h2{
-    background-image: url("images/Bild.jpg");
-    background-repeat: no-repeat;
-    color:transparent;
-    width: 50%;
-    height: 50%;
+
+.text2{
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    right: 20px;
+    width: 40%;
+    padding-bottom: 10px; 
 
 }
+
+
+footer{
+        width: 100%;
+        height: 20%;
+        background-color:white;
+        display:inline-block;
+        
+    }
+ 
+.copy{
+font-size: 30px;
+text-align: center;
+margin-top: var(--units-l);
+
+ }   
     
