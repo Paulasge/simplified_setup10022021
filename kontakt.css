@@ -89,3 +89,11 @@ margin-left: 1400px;
 border-radius: var(--units-m);
 
 }
+/*body*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color:var(--color-beige);
+    color: 100%;
+}
+

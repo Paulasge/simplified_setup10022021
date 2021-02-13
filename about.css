@@ -21,6 +21,7 @@
     --font-thirdly: "Sunflower (Bold)";
     --font-text: "Lato (Regular)";
     }
+
     
   header{
   width: 100%;
@@ -28,7 +29,7 @@
   background-color:white;
   display:inline-block;
   position:sticky;
-    }
+}
 
 
 /*logo*/
@@ -88,4 +89,16 @@ margin-bottom: 50px;
 margin-left: 1400px;
 border-radius: var(--units-m);
 
+}
+
+/*body*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color:var(--color-beige);
+    color: 100%;
+}
+
+.headline{
+text-align: center;
 }
